@@ -11,6 +11,9 @@
 		5DA80A332B71883600C029EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA80A322B71883600C029EC /* ContentView.swift */; };
 		5DA80A352B71883700C029EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA80A342B71883700C029EC /* Assets.xcassets */; };
 		5DA80A382B71883700C029EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA80A372B71883700C029EC /* Preview Assets.xcassets */; };
+		5DA80A3F2B71884C00C029EC /* Zipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA80A3E2B71884C00C029EC /* Zipper.swift */; };
+		5DA80A432B7281EC00C029EC /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA80A422B7281EC00C029EC /* AudioManager.swift */; };
+		5DA80A452B72838800C029EC /* themchanges.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DA80A442B72838800C029EC /* themchanges.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		5DA80A322B71883600C029EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DA80A342B71883700C029EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA80A372B71883700C029EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DA80A3E2B71884C00C029EC /* Zipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zipper.swift; sourceTree = "<group>"; };
+		5DA80A422B7281EC00C029EC /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		5DA80A442B72838800C029EC /* themchanges.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = themchanges.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				5DA80A302B71883600C029EC /* ZipperGeometryApp.swift */,
 				5DA80A322B71883600C029EC /* ContentView.swift */,
+				5DA80A422B7281EC00C029EC /* AudioManager.swift */,
+				5DA80A3E2B71884C00C029EC /* Zipper.swift */,
+				5DA80A442B72838800C029EC /* themchanges.mp3 */,
 				5DA80A342B71883700C029EC /* Assets.xcassets */,
 				5DA80A362B71883700C029EC /* Preview Content */,
 			);
@@ -127,6 +136,7 @@
 			files = (
 				5DA80A382B71883700C029EC /* Preview Assets.xcassets in Resources */,
 				5DA80A352B71883700C029EC /* Assets.xcassets in Resources */,
+				5DA80A452B72838800C029EC /* themchanges.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +149,8 @@
 			files = (
 				5DA80A332B71883600C029EC /* ContentView.swift in Sources */,
 				5DA80A312B71883600C029EC /* ZipperGeometryApp.swift in Sources */,
+				5DA80A432B7281EC00C029EC /* AudioManager.swift in Sources */,
+				5DA80A3F2B71884C00C029EC /* Zipper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
